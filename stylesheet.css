@@ -1,0 +1,231 @@
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 200px 0 200px 0px;
+  background-image:url("Rak-Buku-Dinding.jpg");
+  background-size: cover;
+  color: white;
+
+}
+
+.top-wrapper h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: -10px;
+}
+.top-wrapper span {
+  color:#000000;
+}
+.top-wrapper h2 {
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-bottom: -5px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.set-list-of {
+  background-color: #0568D0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 4px;
+  text-align:center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color:rgba(13,13,13,0.70);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 150px;
+  margin-top: 15px;
+  color: white;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 50px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu-icon {
+  color: white;
+  float:right;
+  font-size:25px;
+  padding:21px 0;
+  display:none;
+}
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:#F7F0F0;
+  text-align: center;
+  border-bottom: #BFB8B8 solid 1px;
+}
+
+.heading {
+  background-color:  #000000;
+  padding-bottom: 1px;
+  color: #F9F9F9;
+}
+
+.heading h2 {
+    font-weight: normal;
+	text-align: left;
+	padding-left: 10px;
+}
+.lessons{
+	background-color: #000000;
+	
+}
+.lesson {
+  float: left;
+  width: 33.3%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon img{
+  height: 130px;
+  width: 200px;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+
+/*contac*/
+
+.contac-img img{
+	width: 50%;
+	margin-left: -50px;
+	float: left;
+	
+}
+.contac{
+	float:right;
+	text-align: left;
+	width: 50%;
+}
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  height: 500px;
+}
+.contact-form {
+
+}
+.contact-submit{
+  background-color:#115ABD;
+  color:#ffffff;
+  padding: 9px 10px;
+
+
+}
+input, textarea{
+  margin-top:-10px;
+  margin-bottom:10px;
+  padding:15px;
+  font-size:18px;
+  width:100%;
+  border:1px solid #dee7ec;
+  background-color:#D4CECE;
+}
+
+
+.about{
+	height: 200px;
+	padding: 20px 0;
+	background-color:#015343;
+	color: white;
+}
+.about Span{
+	font-size: 30px;
+}
+.about p{
+	font-size: 15px;
+    line-height: 5px;
+	color: #E3E3E3;
+	letter-spacing: 2px;
+	padding-right: 100px
+	
+}
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(13,13,13,1.00);
+  padding: 1px 0;
+}
